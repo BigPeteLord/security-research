@@ -15,24 +15,31 @@ Two exploits could be found using MacOS's Terminal and another method which I wi
 ## Findings
 
 ## 1: Theoretical Basic External Drive Bypass
---Risk Level: Very Severe
---Description and Summary: MDM does limit the use of certain unsigned and downloaded applications by prohibting and password locking the application folder to administrator access.
+-Risk Level: Very Severe
+
+-Description and Summary: MDM does limit the use of certain unsigned and downloaded applications by prohibting and password locking the application folder to administrator access.
 However, using a very simple technique, you are able to effecitvely bypass this altogether. Setting up an external disk drive, you are able to launch a application from the external
 drive without any interruptions.
---How?: Pre-compiled apps can run directly from a disk drive, no files touched on the main system at all.
---Result?: Full access to unsigned apps and software without authorization.
+
+-How?: Pre-compiled apps can run directly from a disk drive, no files touched on the main system at all.
+
+-Result?: Full access to unsigned apps and software without authorization.
 
 ## 2: Theoretical Symlink Terminal Bypass Command
---Risk Level: High
---Description and Summary: Apps that are not pre-compiled and do need to run off the main system drive can still be launched. This is where the symlink command comes into play.
+-Risk Level: High
+
+-Description and Summary: Apps that are not pre-compiled and do need to run off the main system drive can still be launched. This is where the symlink command comes into play.
 Symlink is able to mimic a drive to think the file is there but it's actually on a different drive. Think of it as a shortcut.
-How?: Terminal commands are rarely logged and easily usable, somebody with simple knowledge can use this with more malicious intent.
-Result?: Access to unsigned apps and software that can be used on the main system drive. Disabling WiFi makes this method completely untraceable.
+
+-How?: Terminal commands are rarely logged and easily usable, somebody with simple knowledge can use this with more malicious intent.
+
+-Result?: Access to unsigned apps and software that can be used on the main system drive. Disabling WiFi makes this method completely untraceable.
 
 
 ## Proposed Mitigation Strategy
---Restrict any binary from removable hardware or media using the MDM.
---Lock down the Terminal or implement a solution that limits certain commands.
+-Restrict any binary from removable hardware or media using the MDM.
+
+-Lock down the Terminal or implement a solution that limits certain commands.
 
 ## Disclaimer
 **IMPORTANT** This research is purely theoretical and for educational purposes only. No malicious intent is involved with this theory and is purely for the education of other IT officials in the
