@@ -45,4 +45,4 @@ Symlink is able to mimic a drive to think the file is there but it's actually on
 **IMPORTANT** This research is purely theoretical and for educational purposes only. No malicious intent is involved with this theory and is purely for the education of other IT officials in the
 industry. The author **does not condone, encourage, or participate** in the unauthorized testing of any computer systems. Always obtain explicit, written permission before testing any network or system that you do not own.
 
-© 2024 - Pete Research | Security Enthusiast
+© 2025 - Pete Research | Security Enthusiast
