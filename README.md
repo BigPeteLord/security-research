@@ -1,4 +1,4 @@
-# Independent Security Research Portfolio
+# Independent Security Research Findings for Controlled/Locked-down Computer Environments
 
 ## Overview
 This repository contains a list of many hypothetical and theoretical vulnerabilities and exploits that could be discovered by independent research in a controlled and locked-down environment.
