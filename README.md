@@ -6,7 +6,7 @@ The main purpose of this is to help learn more about potential cyberthreats, att
 
 ---
 
-## Project: Analyzing Security in Controlled Environments
+## Project and Goal: Analyzing the security of School-managed Macs for better safety, less cheating, and more benefits.
 
 ## Summary
 A well-tested assesment of a managed MacOS that is controlled by MDM (Mosyle Manager) and is supposed to shield against potential mis-use and threatening or harmful content.
@@ -14,7 +14,7 @@ Two exploits could be found using MacOS's Terminal and another method which I wi
 
 ## Findings
 
-## 1: Theoretical Basic External Drive Bypass
+## 1: Basic External Drive Bypass
 -Risk Level: Critical
 
 -Description and Summary: MDM does limit the use of certain unsigned and downloaded applications by prohibting and password locking the application folder to administrator access.
@@ -25,10 +25,10 @@ drive without any interruptions.
 
 -Result?: Full access to unsigned apps and software without authorization.
 
-## 2: Theoretical Symlink Terminal Bypass Command
+## 2: Symlink Terminal Bypass Command
 -Risk Level: High
 
--Description and Summary: Apps that are not pre-compiled and do need to run off the main system drive can still be launched. This is where the symlink command comes into play.
+-Description and Summary: Apps that are not pre-compiled and do need to run off the main system drive can still be launched. This is where the Symlink command comes into play.
 Symlink is able to mimic a drive to think the file is there but it's actually on a different drive. Think of it as a shortcut.
 
 -How?: Terminal commands are rarely logged and easily usable, somebody with simple knowledge can use this with more malicious intent.
@@ -51,7 +51,7 @@ Symlink is able to mimic a drive to think the file is there but it's actually on
 
 -How?: Install a Linux Distro from the internet via your own personal computer. Export the Linux OS onto your USB Drive(preferably a 32GB Drive, Linux is lightweight). Restart the Macbook and hold Option (⌥) key as soon as the start-up chime happens. This will launch Startup Manager, which is very accessible even on controlled Macs due to it being a low-level firmware function. Install Linux through the External Drive and you have successfully bypassed every safeguard on the Mac.
 
--Result?: MacOS safeguards completey bypassed. DiLL Kernel Extensions, CCHS Policies, DNS Rerouting, VPN Blocks, completey removed. You are running your own OS, and a better one at that. Full access to everything, games could be exploited by loading Android Emulators allow further control. 0 forensic traces as this is a start-up level bypass. Mosyle only runs once the OS has been launched. This is entirely firmware based exploit, completey untraceable unless it was physically witnessed.
+-Result?: MacOS safeguards completely bypassed. DiLL Kernel Extensions, CCHS Policies, DNS Rerouting, VPN Blocks, completely removed. You are running your own OS, and a better one at that. Full access to everything, games could be exploited by loading Android Emulators allow further control. 0 forensic traces as this is a start-up level bypass. Mosyle only runs once the OS has been launched. This is entirely firmware based exploit, completely untraceable unless it was physically witnessed.
 
 ## Proposed Mitigation Strategy
 -Restrict any binary from removable hardware or media using the MDM.
