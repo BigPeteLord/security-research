@@ -53,6 +53,15 @@ Symlink is able to mimic a drive to think the file is there but it's actually on
 
 -Result?: MacOS safeguards completely bypassed. DiLL Kernel Extensions, CCHS Policies, DNS Rerouting, VPN Blocks, completely removed. You are running your own OS, and a better one at that. Full access to everything, games could be exploited by loading Android Emulators allow further control. 0 forensic traces as this is a start-up level bypass. Mosyle only runs once the OS has been launched. This is entirely firmware based exploit, completely untraceable unless it was physically witnessed.
 
+## Google Developer Tool DNS Rerouting
+-Risk Level:
+
+-Description and Summary: **SOON**
+
+-How?: **SOON**
+
+-Result?: **SOON**
+
 ## Proposed Mitigation Strategy
 -Restrict any binary from removable hardware or media using the MDM.
 
