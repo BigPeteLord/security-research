@@ -1,7 +1,7 @@
 # Independent Security Audit: Penetration Testing of MDM-Managed MacBook Environment
 
 ## Executive Summary
-**Date:** April 2024
+**Date:** September 2025
 **Target Environment:** Diocese of Charlotte / CCHS Managed Device Ecosystem
 **Platform:** macOS Ventura/Sonoma with Mosyle MDM
 **Assessment Type:** Authorized Security Research & Vulnerability Assessment
