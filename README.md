@@ -2,9 +2,13 @@
 
 ## Executive Summary
 **Date:** September 2025
+
 **Target Environment:** Diocese of Charlotte / CCHS Managed Device Ecosystem
+
 **Platform:** macOS Ventura/Sonoma with Mosyle MDM
+
 **Assessment Type:** Authorized Security Research & Vulnerability Assessment
+
 **Researcher:** Peter S. (Student Security Analyst)
 
 ## Scope of Engagement
