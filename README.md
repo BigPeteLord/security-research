@@ -32,7 +32,7 @@ Testing utilized standard penetration testing methodologies including:
 
 **Description:** The Mosyle MDM implementation successfully restricts application installation to the `/Applications` directory but fails to prevent execution of pre-compiled binaries from user-mounted external storage.
 
-**Verification:** Multiple applications including [REDACTED] were successfully loaded and executed directly from USB-C storage devices via binary execution within application package contents (`/Contents/MacOS/`).
+**Verification:** Multiple applications including the TOR Browser were successfully loaded and executed directly from USB-C storage devices via binary execution within application package contents (`/Contents/MacOS/`).
 
 **Impact:** Complete circumvention of application whitelisting policies, enabling unauthorized software execution without system modification.
 
